@@ -1,0 +1,131 @@
+
+/* Classes */
+.fr-c-sp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.fc-c-sp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.qd-section {
+    padding: 20px;
+    margin: 80px;
+}
+
+.row {
+    margin: 0;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+.m-5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Tags */
+body {
+
+    margin: 0;
+    background-color: #FCFCFC;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #808080;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #808080;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    width:100%
+}
+
+/* Tags com seletores*/
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        color: #000000;
+    }
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+    header a:hover {
+        color: #808080;
+    }
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+    footer a:hover {
+        color: #000000;
+    }
+
+
+#card-container {
+    display: flex;
+}
+
+#produtos-container .card {
+    padding: 0;
+    margin: 5px;
+}
+
+#produtos-container img {
+    max-height: 150px;
+}
+
+#card-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
