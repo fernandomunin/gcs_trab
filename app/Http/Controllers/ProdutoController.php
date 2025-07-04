@@ -14,11 +14,11 @@ class ProdutoController extends Controller
 
     public function adicionarProduto(Request $request){
         $produto = new Produto;
-
+        $produto->categoria = $request->categoria;
         $produto->nome = $request->nome;
         $produto->descricao = $request->descricao;
         $produto->preco = $request->preco;
-        $produto->qtd = $request->quantidade;
+        $produto->qtd = $request->qtd;
 
         if($request->hasFile('image') && $request->file('image')->isValid()){
             $requestImage = $request->image;

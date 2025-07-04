@@ -15,5 +15,6 @@ class Produto extends Model
         'descricao',
         'preco',
         'qtd',
+        'categoria'
     ];
 }
