@@ -16,6 +16,12 @@
             <label class="form-label">Descrição do produto</label>
             <textarea class="form-control" name="descricao" placeholder="Insira a descricao do produto aqui..."></textarea>
             <br>
+            <label class="form-label">Preço</label>
+            <input class="form-control" type="number" step="0.01" name="preco" placeholder="R$ 0.00">
+            <br>
+            <label class="form-label">Quantidade</label>
+            <input class="form-control" type="number" name="quantidade" placeholder="Ex.: 10">
+            <br>
             <label class="form-label">Insira uma imagem</label>
             <input class="form-control" type="file" name="image">
             <br>
