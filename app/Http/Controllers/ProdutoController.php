@@ -18,7 +18,7 @@ class ProdutoController extends Controller
         $produto->nome = $request->nome;
         $produto->descricao = $request->descricao;
         $produto->preco = $request->preco;
-        $produto->quantidade = $request->quantidade;
+        $produto->qtd = $request->quantidade;
 
         if($request->hasFile('image') && $request->file('image')->isValid()){
             $requestImage = $request->image;
