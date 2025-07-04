@@ -20,7 +20,10 @@
             <input class="form-control" type="number" step="0.01" name="preco" placeholder="R$ 0.00">
             <br>
             <label class="form-label">Quantidade</label>
-            <input class="form-control" type="number" name="quantidade" placeholder="Ex.: 10">
+            <input class="form-control" type="number" name="qtd" placeholder="Ex.: 10">
+            <br>
+            <label class="form-label">Categoria</label>
+            <input class="form-control" type="text" name="categoria" placeholder="Ex.: Camisetas, Calças, etc.">
             <br>
             <label class="form-label">Insira uma imagem</label>
             <input class="form-control" type="file" name="image">

@@ -18,7 +18,20 @@
             <label class="form-label">Descrição do produto</label>
             <textarea class="form-control" name="descricao" placeholder="Insira a descricao do produto aqui...">{{ $produto->descricao }}</textarea>
             <br>
-            <label class="form-label">Insira uma imgaem</label>
+            <label class="form-label">Preço</label>
+            <input class="form-control" type="number" step="0.01" name="preco" placeholder="R$ 0.00" value="{{ $produto->preco }}">
+            <br>
+            <label class="form-label">Quantidade</label>
+            <input class="form-control" type="number" name="qtd" placeholder="Ex.: 10" value="{{ $produto->qtd }}">
+            <br>
+            <label class="form-label">Categoria</label>
+            <input class="form-control" type="text" name="categoria" placeholder="Ex.: Camisetas, Calças, etc." value="{{ $produto->categoria }}">
+            <br>
+           
+            <label class="form-label">Imagem atual</label><br />
+            <img src='/img/{{ $produto->image }}' alt ="{{ $produto->nome }}" width="250">
+            <br />
+            <label class="form-label">Alterar imagem</label>
             <input class="form-control" type="file" name="image">
             <br>
             <input class="btn btn-primary" type="submit" value = "Atualizar produto">
