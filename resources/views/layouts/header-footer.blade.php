@@ -67,7 +67,7 @@
      @yield('mainContent')
   </main>
   <footer>
-    Sportiva &copy; 2024
-    <a href="#topo">Voltar ao topo</a>
+    <span><a href="#topo">Voltar ao topo</a></span>
+    <span>Sportiva &copy; 2024</span>
   </footer>
 </body>
